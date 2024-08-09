@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Pagina inmersiva</h1>
+        <div class="row">
+            <!-- Video -->
+            <div class="col-12 mb-4">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video class="embed-responsive-item" controls>
+                        <source src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            
+            <!-- Audio 1 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <audio controls class="w-100" onplay="muteOthers(this)">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Audio 1</h5>
+                        <p class="card-text">Audio espacial rapido.</p>
+                        <div class="animate__animated animate__bounce">🎵</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Audio 2 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <audio controls class="w-100" onplay="muteOthers(this)">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Audio 2</h5>
+                        <p class="card-text">Audio profunto y cinematico.</p>
+                        <div class="animate__animated animate__bounce">🎶</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Audio 3 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <audio controls class="w-100" onplay="muteOthers(this)">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Audio 3</h5>
+                        <p class="card-text">Audio energetico y bailable.</p>
+                        <div class="animate__animated animate__bounce">🎧</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Audio 4 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <audio controls class="w-100" onplay="muteOthers(this)">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Audio 4</h5>
+                        <p class="card-text">Audio de tecno movido.</p>
+                        <div class="animate__animated animate__bounce">🎤</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
